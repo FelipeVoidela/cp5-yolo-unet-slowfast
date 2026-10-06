@@ -18,10 +18,42 @@ OUT = Path("outputs")
 S = {v: json.loads((OUT / v / "summary.json").read_text(encoding="utf-8"))
      for v in ("archery", "arm_wrestling", "transition", "pedestrians")}
 
-# ---- integrantes: preencher antes de entregar -------------------------------------------------
+# ---- integrantes e parecer individual de cada um -----------------------------------------------
 INTEGRANTES = ["Açussena Macedo Mautone - RM 552568", "Felipe Heilmann Marques - RM 551026",
                "Felipe Voidela Toledo - RM 98595", "Carlos Eduardo Caramante Ribeiro - RM 552159",
                "Ian Cancian Nachtergaele - RM 98387"]
+PARECERES = {
+    "Açussena Macedo Mautone": (
+        "U-Net e projeção da máscara",
+        "O que mais me chamou atenção foi o peso do pré-processamento. Sem mexer no modelo, só trocar o "
+        "recorte esticado por um quadrado levou o preenchimento de 0,26 para 0,43, e espelhar a borda levou "
+        "para 0,47. A U²-Net ainda falha com pessoas pequenas ou cortadas pelo quadro (IDs 7 e 16 ficam sem "
+        "máscara), o que faz sentido para um modelo treinado com pessoas inteiras e em primeiro plano."),
+    "Felipe Heilmann Marques": (
+        "YOLO e leitura do vídeo",
+        "No vídeo do arco o YOLO foi impecável: 300/300 quadros e só 2 IDs. Na queda de braço ficou claro que o "
+        "problema não é detectar, e sim rastrear. O ByteTrack olha só posição e movimento, por isso gerou 31 IDs "
+        "e herdou o ID da arqueira no corte de cena. Como próximo passo, eu testaria um rastreador com "
+        "re-identificação por aparência e um YOLO maior, para pegar o oponente de camisa preta."),
+    "Felipe Voidela Toledo": (
+        "integração do pipeline e visualização",
+        "A parte mais difícil foi juntar escalas de tempo diferentes: YOLO e U-Net respondem por quadro, o "
+        "SlowFast responde por janela de 32 quadros. Resolvemos mostrando em cada quadro a janela de centro "
+        "mais próximo, e isso explica o atraso de ~0,5 s na troca de ação. O custo também pesa: na CPU são "
+        "~1,6 s por quadro, quase tudo na U-Net. Sem GPU, não dá para usar em tempo real."),
+    "Carlos Eduardo Caramante Ribeiro": (
+        "SlowFast e classificação de ações",
+        "O SlowFast acertou todas as janelas de arco e de queda de braço. Mas a confiança de 1,00 em quadros "
+        "borrados e até corrompidos mostra que esse número não é uma probabilidade em que dá para confiar. Nos "
+        "pedestres ele ficou perdido porque 'andar' não existe no Kinetics-400. Aprendi que a lista de classes "
+        "do pré-treino importa tanto quanto a arquitetura."),
+    "Ian Cancian Nachtergaele": (
+        "experimentos, testes e apresentação",
+        "O clipe de transição foi a forma mais direta de responder se a classe muda quando a ação termina: a "
+        "troca acontece, com queda de confiança para 0,94 só na janela que mistura as duas cenas. Os testes "
+        "automatizados se pagaram: foi um deles que revelou a máscara cortada na cintura pela borda "
+        "replicada. Sem eles, esse erro teria passado despercebido."),
+}
 
 LABEL = {"archery": "V1 arco", "arm_wrestling": "V2 queda de braço", "transition": "Transição",
          "pedestrians": "Pedestres"}
@@ -99,7 +131,7 @@ def build(path="relatorio_cp5.pdf"):
     W = A4[0] - 3 * cm
     st = []
     st += [P("Applied Computer Vision 2026 - CheckPoint 5<br/>Detecção de Ações de Pessoas com YOLO + U-Net + SlowFast", title),
-           P("Integrantes: " + "; ".join(INTEGRANTES), ParagraphStyle("i", parent=small, alignment=1)),
+           P("<br/>".join(INTEGRANTES), ParagraphStyle("i", parent=small, alignment=1)),
            Spacer(1, 4)]
 
     st += [P("1. Pipeline", h1), P(
@@ -231,7 +263,7 @@ def build(path="relatorio_cp5.pdf"):
              "quando o contexto é parte da ação.")]
 
     st += [P("6. Parecer dos integrantes", h1)] + [
-        P(f"<b>{n.split(' - ')[0]}:</b> [parecer individual sobre os resultados - preencher]") for n in INTEGRANTES]
+        P(f"<b>{nome}</b> ({papel}): {texto}") for nome, (papel, texto) in PARECERES.items()]
 
     doc = SimpleDocTemplate(path, pagesize=A4, leftMargin=1.5 * cm, rightMargin=1.5 * cm,
                             topMargin=1.2 * cm, bottomMargin=1.2 * cm, title="CP5 - YOLO + U-Net + SlowFast")

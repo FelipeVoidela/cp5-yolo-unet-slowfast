@@ -4,9 +4,15 @@ Lê um vídeo curto e mostra, em cada trecho, **onde está a pessoa** (caixa –
 pertencem a ela** (máscara – U-Net) e **qual ação está fazendo** (SlowFast). Só usa modelos já
 treinados, sem nenhum treinamento adicional.
 
-**Integrantes:** Açussena Macedo Mautone (RM 552568) · Felipe Heilmann Marques (RM 551026) ·
-Felipe Voidela Toledo (RM 98595) · Carlos Eduardo Caramante Ribeiro (RM 552159) ·
-Ian Cancian Nachtergaele (RM 98387)
+## Integrantes
+
+| Nome | RM |
+|---|---|
+| Açussena Macedo Mautone | 552568 |
+| Felipe Heilmann Marques | 551026 |
+| Felipe Voidela Toledo | 98595 |
+| Carlos Eduardo Caramante Ribeiro | 552159 |
+| Ian Cancian Nachtergaele | 98387 |
 
 ## Entregáveis
 
