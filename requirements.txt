@@ -1,0 +1,14 @@
+# PyTorch (CPU). Com GPU NVIDIA, instale a versão CUDA em https://pytorch.org
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+ultralytics
+opencv-python
+onnxruntime
+fvcore
+iopath
+av
+numpy
+matplotlib
+reportlab
+lap

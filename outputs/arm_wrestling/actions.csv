@@ -1,0 +1,35 @@
+window,start_frame,end_frame,t_start,t_end,mode,top1,conf1,top2,conf2,top3,conf3
+0,0,31,0.00,1.11,full,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+0,0,31,0.00,1.11,crop,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+1,16,47,0.57,1.68,full,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+1,16,47,0.57,1.68,crop,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+2,32,63,1.14,2.25,full,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+2,32,63,1.14,2.25,crop,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+3,48,79,1.71,2.82,full,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+3,48,79,1.71,2.82,crop,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+4,64,95,2.29,3.39,full,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+4,64,95,2.29,3.39,crop,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+5,80,111,2.86,3.96,full,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+5,80,111,2.86,3.96,crop,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+6,96,127,3.43,4.54,full,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+6,96,127,3.43,4.54,crop,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+7,112,143,4.00,5.11,full,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+7,112,143,4.00,5.11,crop,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+8,128,159,4.57,5.68,full,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+8,128,159,4.57,5.68,crop,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+9,144,175,5.14,6.25,full,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+9,144,175,5.14,6.25,crop,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+10,160,191,5.71,6.82,full,arm wrestling,1.0000,rock scissors paper,0.0000,shaking hands,0.0000
+10,160,191,5.71,6.82,crop,arm wrestling,1.0000,rock scissors paper,0.0000,shaking hands,0.0000
+11,176,207,6.29,7.39,full,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+11,176,207,6.29,7.39,crop,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+12,192,223,6.86,7.96,full,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+12,192,223,6.86,7.96,crop,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+13,208,239,7.43,8.54,full,arm wrestling,1.0000,capoeira,0.0000,rock scissors paper,0.0000
+13,208,239,7.43,8.54,crop,arm wrestling,1.0000,capoeira,0.0000,rock scissors paper,0.0000
+14,224,255,8.00,9.11,full,arm wrestling,0.9997,drinking,0.0001,capoeira,0.0000
+14,224,255,8.00,9.11,crop,arm wrestling,0.9997,drinking,0.0001,capoeira,0.0000
+15,240,271,8.57,9.68,full,arm wrestling,1.0000,capoeira,0.0000,shaking hands,0.0000
+15,240,271,8.57,9.68,crop,arm wrestling,1.0000,capoeira,0.0000,shaking hands,0.0000
+16,248,279,8.86,9.96,full,arm wrestling,1.0000,capoeira,0.0000,shaking hands,0.0000
+16,248,279,8.86,9.96,crop,arm wrestling,1.0000,capoeira,0.0000,shaking hands,0.0000

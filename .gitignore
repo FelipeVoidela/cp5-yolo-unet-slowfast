@@ -1,0 +1,17 @@
+# pesos pré-treinados (~450 MB) -> baixar com: python download_models.py
+models/
+*.pt
+*.onnx
+
+# vídeos de entrada de terceiros -> baixar com: python download_models.py
+videos/
+
+# enunciado do professor
+CP5.pdf
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.log

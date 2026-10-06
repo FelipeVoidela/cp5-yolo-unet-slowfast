@@ -1,0 +1,29 @@
+window,start_frame,end_frame,t_start,t_end,mode,top1,conf1,top2,conf2,top3,conf3
+0,0,31,0.00,1.03,full,archery,1.0000,throwing axe,0.0000,golf driving,0.0000
+0,0,31,0.00,1.03,crop,archery,1.0000,throwing axe,0.0000,golf driving,0.0000
+1,16,47,0.53,1.57,full,archery,1.0000,throwing axe,0.0000,front raises,0.0000
+1,16,47,0.53,1.57,crop,archery,1.0000,throwing axe,0.0000,front raises,0.0000
+2,32,63,1.07,2.10,full,archery,1.0000,throwing axe,0.0000,front raises,0.0000
+2,32,63,1.07,2.10,crop,archery,1.0000,throwing axe,0.0000,front raises,0.0000
+3,48,79,1.60,2.63,full,archery,1.0000,throwing axe,0.0000,stretching arm,0.0000
+3,48,79,1.60,2.63,crop,archery,1.0000,throwing axe,0.0000,playing paintball,0.0000
+4,64,95,2.13,3.17,full,archery,1.0000,throwing axe,0.0000,front raises,0.0000
+4,64,95,2.13,3.17,crop,archery,1.0000,throwing axe,0.0000,playing paintball,0.0000
+5,80,111,2.67,3.70,full,archery,1.0000,golf driving,0.0000,throwing axe,0.0000
+5,80,111,2.67,3.70,crop,archery,1.0000,golf driving,0.0000,throwing axe,0.0000
+6,96,127,3.20,4.23,full,archery,1.0000,arm wrestling,0.0000,throwing axe,0.0000
+6,96,127,3.20,4.23,crop,archery,1.0000,golf driving,0.0000,arm wrestling,0.0000
+7,112,143,3.73,4.77,full,arm wrestling,0.9355,archery,0.0645,rock scissors paper,0.0000
+7,112,143,3.73,4.77,crop,arm wrestling,0.8459,archery,0.1541,rock scissors paper,0.0000
+8,128,159,4.27,5.30,full,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+8,128,159,4.27,5.30,crop,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+9,144,175,4.80,5.83,full,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+9,144,175,4.80,5.83,crop,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+10,160,191,5.33,6.37,full,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+10,160,191,5.33,6.37,crop,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+11,176,207,5.87,6.90,full,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+11,176,207,5.87,6.90,crop,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+12,192,223,6.40,7.43,full,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+12,192,223,6.40,7.43,crop,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+13,199,230,6.63,7.67,full,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000
+13,199,230,6.63,7.67,crop,arm wrestling,1.0000,shaking hands,0.0000,rock scissors paper,0.0000

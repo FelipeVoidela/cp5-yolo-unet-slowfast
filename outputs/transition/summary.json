@@ -1,0 +1,698 @@
+{
+  "video": "transition.mp4",
+  "frames": 231,
+  "fps": 30.0,
+  "size": [
+    320,
+    240
+  ],
+  "frames_with_person": 231,
+  "mean_people_per_frame": 2.75,
+  "unique_track_ids": 14,
+  "mean_det_conf": 0.701,
+  "mean_mask_fill_ratio": 0.446,
+  "window": 32,
+  "stride": 16,
+  "n_windows": 14,
+  "windows": [
+    {
+      "k": 0,
+      "frames": [
+        0,
+        32
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          7.619985217899077e-20
+        ],
+        [
+          "golf driving",
+          2.8899878242004696e-23
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          1.6918949492974325e-21
+        ],
+        [
+          "golf driving",
+          1.1101247060874952e-24
+        ]
+      ]
+    },
+    {
+      "k": 1,
+      "frames": [
+        16,
+        48
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          3.034458310410966e-19
+        ],
+        [
+          "front raises",
+          1.3889939701704797e-21
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          5.201053601688799e-22
+        ],
+        [
+          "front raises",
+          7.854954766879192e-25
+        ]
+      ]
+    },
+    {
+      "k": 2,
+      "frames": [
+        32,
+        64
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          1.0741439664295893e-18
+        ],
+        [
+          "front raises",
+          5.9323422515999796e-21
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          1.2282496136708943e-21
+        ],
+        [
+          "front raises",
+          5.774256722382449e-24
+        ]
+      ]
+    },
+    {
+      "k": 3,
+      "frames": [
+        48,
+        80
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          1.6043966573716555e-15
+        ],
+        [
+          "stretching arm",
+          2.182374598336417e-17
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          1.3788560827755097e-16
+        ],
+        [
+          "playing paintball",
+          2.3283678405489636e-18
+        ]
+      ]
+    },
+    {
+      "k": 4,
+      "frames": [
+        64,
+        96
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          4.410303091797313e-16
+        ],
+        [
+          "front raises",
+          2.5116487304141756e-17
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          8.545360709801973e-17
+        ],
+        [
+          "playing paintball",
+          9.771391518270004e-19
+        ]
+      ]
+    },
+    {
+      "k": 5,
+      "frames": [
+        80,
+        112
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "golf driving",
+          1.2657899901846736e-12
+        ],
+        [
+          "throwing axe",
+          6.913925269975973e-13
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "golf driving",
+          5.4102097801767e-11
+        ],
+        [
+          "throwing axe",
+          5.370073483113025e-11
+        ]
+      ]
+    },
+    {
+      "k": 6,
+      "frames": [
+        96,
+        128
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "arm wrestling",
+          1.1598130789103323e-10
+        ],
+        [
+          "throwing axe",
+          8.78699890627388e-11
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          0.9999997615814209
+        ],
+        [
+          "golf driving",
+          2.7089345167041756e-07
+        ],
+        [
+          "arm wrestling",
+          6.414906383866992e-09
+        ]
+      ]
+    },
+    {
+      "k": 7,
+      "frames": [
+        112,
+        144
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          0.9355196356773376
+        ],
+        [
+          "archery",
+          0.06447664648294449
+        ],
+        [
+          "rock scissors paper",
+          1.5884745607763762e-06
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          0.8459369540214539
+        ],
+        [
+          "archery",
+          0.154059499502182
+        ],
+        [
+          "rock scissors paper",
+          1.06319896531204e-06
+        ]
+      ]
+    },
+    {
+      "k": 8,
+      "frames": [
+        128,
+        160
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          3.4249103831034567e-15
+        ],
+        [
+          "rock scissors paper",
+          2.564493468249591e-15
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          4.282236474732791e-15
+        ],
+        [
+          "rock scissors paper",
+          2.789322693988721e-15
+        ]
+      ]
+    },
+    {
+      "k": 9,
+      "frames": [
+        144,
+        176
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          3.501501524179024e-17
+        ],
+        [
+          "rock scissors paper",
+          1.9496152383868556e-17
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          1.5065114587266947e-17
+        ],
+        [
+          "rock scissors paper",
+          8.487108004088029e-18
+        ]
+      ]
+    },
+    {
+      "k": 10,
+      "frames": [
+        160,
+        192
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          1.043824508936586e-17
+        ],
+        [
+          "rock scissors paper",
+          1.817212614997586e-18
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          1.1913258668419393e-17
+        ],
+        [
+          "rock scissors paper",
+          1.7306657414819282e-18
+        ]
+      ]
+    },
+    {
+      "k": 11,
+      "frames": [
+        176,
+        208
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          1.0068247598417584e-15
+        ],
+        [
+          "rock scissors paper",
+          9.079640637916914e-17
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          2.1305377370640054e-15
+        ],
+        [
+          "rock scissors paper",
+          1.7026794254887889e-16
+        ]
+      ]
+    },
+    {
+      "k": 12,
+      "frames": [
+        192,
+        224
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          4.941528804392912e-16
+        ],
+        [
+          "rock scissors paper",
+          9.57999292602738e-17
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          3.699580245068891e-16
+        ],
+        [
+          "rock scissors paper",
+          7.645678047430918e-17
+        ]
+      ]
+    },
+    {
+      "k": 13,
+      "frames": [
+        199,
+        231
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          1.452576970652989e-14
+        ],
+        [
+          "rock scissors paper",
+          2.1848842179927885e-15
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          1.0394711248706574e-14
+        ],
+        [
+          "rock scissors paper",
+          1.74313133676949e-15
+        ]
+      ]
+    }
+  ],
+  "moments": [
+    {
+      "frame": 46,
+      "time_s": 1.53,
+      "image": "moments\\frame_0046.png",
+      "detections": [
+        {
+          "id": 1,
+          "box": [
+            124,
+            33,
+            196,
+            240
+          ],
+          "conf": 0.847,
+          "mask_fill": 0.522
+        },
+        {
+          "id": 2,
+          "box": [
+            25,
+            31,
+            94,
+            237
+          ],
+          "conf": 0.777,
+          "mask_fill": 0.449
+        }
+      ],
+      "window": 2,
+      "action_full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          1.0741439664295893e-18
+        ],
+        [
+          "front raises",
+          5.9323422515999796e-21
+        ]
+      ],
+      "action_crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          1.2282496136708943e-21
+        ],
+        [
+          "front raises",
+          5.774256722382449e-24
+        ]
+      ]
+    },
+    {
+      "frame": 115,
+      "time_s": 3.83,
+      "image": "moments\\frame_0115.png",
+      "detections": [
+        {
+          "id": 1,
+          "box": [
+            124,
+            34,
+            194,
+            240
+          ],
+          "conf": 0.844,
+          "mask_fill": 0.469
+        },
+        {
+          "id": 2,
+          "box": [
+            26,
+            42,
+            99,
+            239
+          ],
+          "conf": 0.823,
+          "mask_fill": 0.411
+        }
+      ],
+      "window": 6,
+      "action_full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "arm wrestling",
+          1.1598130789103323e-10
+        ],
+        [
+          "throwing axe",
+          8.78699890627388e-11
+        ]
+      ],
+      "action_crop": [
+        [
+          "archery",
+          0.9999997615814209
+        ],
+        [
+          "golf driving",
+          2.7089345167041756e-07
+        ],
+        [
+          "arm wrestling",
+          6.414906383866992e-09
+        ]
+      ]
+    },
+    {
+      "frame": 184,
+      "time_s": 6.13,
+      "image": "moments\\frame_0184.png",
+      "detections": [
+        {
+          "id": 2,
+          "box": [
+            5,
+            2,
+            192,
+            240
+          ],
+          "conf": 0.874,
+          "mask_fill": 0.591
+        },
+        {
+          "id": 16,
+          "box": [
+            228,
+            1,
+            298,
+            112
+          ],
+          "conf": 0.69,
+          "mask_fill": 0.002
+        },
+        {
+          "id": 7,
+          "box": [
+            93,
+            0,
+            130,
+            83
+          ],
+          "conf": 0.431,
+          "mask_fill": 0.012
+        }
+      ],
+      "window": 11,
+      "action_full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          1.0068247598417584e-15
+        ],
+        [
+          "rock scissors paper",
+          9.079640637916914e-17
+        ]
+      ],
+      "action_crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          2.1305377370640054e-15
+        ],
+        [
+          "rock scissors paper",
+          1.7026794254887889e-16
+        ]
+      ]
+    }
+  ],
+  "time_yolo_unet_s": 433.1,
+  "time_slowfast_s": 48.7
+}

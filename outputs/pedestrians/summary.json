@@ -1,0 +1,600 @@
+{
+  "video": "pedestrians.avi",
+  "frames": 150,
+  "fps": 10.0,
+  "size": [
+    768,
+    576
+  ],
+  "frames_with_person": 150,
+  "mean_people_per_frame": 5.39,
+  "unique_track_ids": 14,
+  "mean_det_conf": 0.748,
+  "mean_mask_fill_ratio": 0.502,
+  "window": 32,
+  "stride": 16,
+  "n_windows": 9,
+  "windows": [
+    {
+      "k": 0,
+      "frames": [
+        0,
+        32
+      ],
+      "full": [
+        [
+          "playing cricket",
+          0.4966130554676056
+        ],
+        [
+          "throwing ball",
+          0.08873053640127182
+        ],
+        [
+          "playing badminton",
+          0.06316003203392029
+        ]
+      ],
+      "crop": [
+        [
+          "catching or throwing frisbee",
+          0.4860695004463196
+        ],
+        [
+          "playing cricket",
+          0.13275037705898285
+        ],
+        [
+          "playing badminton",
+          0.1065945029258728
+        ]
+      ]
+    },
+    {
+      "k": 1,
+      "frames": [
+        16,
+        48
+      ],
+      "full": [
+        [
+          "playing cricket",
+          0.13055509328842163
+        ],
+        [
+          "shooting goal (soccer)",
+          0.10020741820335388
+        ],
+        [
+          "throwing ball",
+          0.08525744825601578
+        ]
+      ],
+      "crop": [
+        [
+          "playing cricket",
+          0.3156620264053345
+        ],
+        [
+          "jogging",
+          0.08608685433864594
+        ],
+        [
+          "shooting goal (soccer)",
+          0.07905617356300354
+        ]
+      ]
+    },
+    {
+      "k": 2,
+      "frames": [
+        32,
+        64
+      ],
+      "full": [
+        [
+          "throwing ball",
+          0.13014574348926544
+        ],
+        [
+          "jogging",
+          0.12942303717136383
+        ],
+        [
+          "hurling (sport)",
+          0.052500877529382706
+        ]
+      ],
+      "crop": [
+        [
+          "throwing ball",
+          0.14196783304214478
+        ],
+        [
+          "jogging",
+          0.08733398467302322
+        ],
+        [
+          "pushing car",
+          0.07740594446659088
+        ]
+      ]
+    },
+    {
+      "k": 3,
+      "frames": [
+        48,
+        80
+      ],
+      "full": [
+        [
+          "jogging",
+          0.4084843397140503
+        ],
+        [
+          "egg hunting",
+          0.11115197092294693
+        ],
+        [
+          "throwing ball",
+          0.07216735929250717
+        ]
+      ],
+      "crop": [
+        [
+          "jogging",
+          0.4730123281478882
+        ],
+        [
+          "pushing car",
+          0.1255861520767212
+        ],
+        [
+          "catching or throwing frisbee",
+          0.05262827128171921
+        ]
+      ]
+    },
+    {
+      "k": 4,
+      "frames": [
+        64,
+        96
+      ],
+      "full": [
+        [
+          "jogging",
+          0.521967887878418
+        ],
+        [
+          "marching",
+          0.03479981794953346
+        ],
+        [
+          "pushing car",
+          0.030377626419067383
+        ]
+      ],
+      "crop": [
+        [
+          "jogging",
+          0.6490991115570068
+        ],
+        [
+          "pushing car",
+          0.08025656640529633
+        ],
+        [
+          "marching",
+          0.03506122902035713
+        ]
+      ]
+    },
+    {
+      "k": 5,
+      "frames": [
+        80,
+        112
+      ],
+      "full": [
+        [
+          "jogging",
+          0.44321587681770325
+        ],
+        [
+          "egg hunting",
+          0.06991271674633026
+        ],
+        [
+          "hurling (sport)",
+          0.0685964897274971
+        ]
+      ],
+      "crop": [
+        [
+          "jogging",
+          0.5833452343940735
+        ],
+        [
+          "playing cricket",
+          0.056981004774570465
+        ],
+        [
+          "throwing ball",
+          0.054628778249025345
+        ]
+      ]
+    },
+    {
+      "k": 6,
+      "frames": [
+        96,
+        128
+      ],
+      "full": [
+        [
+          "jogging",
+          0.14584168791770935
+        ],
+        [
+          "hurling (sport)",
+          0.12695111334323883
+        ],
+        [
+          "egg hunting",
+          0.09511274099349976
+        ]
+      ],
+      "crop": [
+        [
+          "jogging",
+          0.4072094261646271
+        ],
+        [
+          "hurling (sport)",
+          0.08099357038736343
+        ],
+        [
+          "playing cricket",
+          0.06340868026018143
+        ]
+      ]
+    },
+    {
+      "k": 7,
+      "frames": [
+        112,
+        144
+      ],
+      "full": [
+        [
+          "playing cricket",
+          0.19137342274188995
+        ],
+        [
+          "shooting goal (soccer)",
+          0.15075504779815674
+        ],
+        [
+          "egg hunting",
+          0.09281967580318451
+        ]
+      ],
+      "crop": [
+        [
+          "jogging",
+          0.17064125835895538
+        ],
+        [
+          "egg hunting",
+          0.16355499625205994
+        ],
+        [
+          "shooting goal (soccer)",
+          0.07342763245105743
+        ]
+      ]
+    },
+    {
+      "k": 8,
+      "frames": [
+        118,
+        150
+      ],
+      "full": [
+        [
+          "shooting goal (soccer)",
+          0.145462304353714
+        ],
+        [
+          "egg hunting",
+          0.12794263660907745
+        ],
+        [
+          "playing cricket",
+          0.12572599947452545
+        ]
+      ],
+      "crop": [
+        [
+          "egg hunting",
+          0.3593040108680725
+        ],
+        [
+          "throwing ball",
+          0.13138628005981445
+        ],
+        [
+          "jogging",
+          0.10733236372470856
+        ]
+      ]
+    }
+  ],
+  "moments": [
+    {
+      "frame": 30,
+      "time_s": 3.0,
+      "image": "moments\\frame_0030.png",
+      "detections": [
+        {
+          "id": 1,
+          "box": [
+            378,
+            180,
+            410,
+            265
+          ],
+          "conf": 0.804,
+          "mask_fill": 0.73
+        },
+        {
+          "id": 5,
+          "box": [
+            630,
+            252,
+            663,
+            353
+          ],
+          "conf": 0.855,
+          "mask_fill": 0.586
+        },
+        {
+          "id": 6,
+          "box": [
+            669,
+            249,
+            696,
+            343
+          ],
+          "conf": 0.807,
+          "mask_fill": 0.662
+        }
+      ],
+      "window": 1,
+      "action_full": [
+        [
+          "playing cricket",
+          0.13055509328842163
+        ],
+        [
+          "shooting goal (soccer)",
+          0.10020741820335388
+        ],
+        [
+          "throwing ball",
+          0.08525744825601578
+        ]
+      ],
+      "action_crop": [
+        [
+          "playing cricket",
+          0.3156620264053345
+        ],
+        [
+          "jogging",
+          0.08608685433864594
+        ],
+        [
+          "shooting goal (soccer)",
+          0.07905617356300354
+        ]
+      ]
+    },
+    {
+      "frame": 75,
+      "time_s": 7.5,
+      "image": "moments\\frame_0075.png",
+      "detections": [
+        {
+          "id": 5,
+          "box": [
+            440,
+            182,
+            470,
+            262
+          ],
+          "conf": 0.801,
+          "mask_fill": 0.551
+        },
+        {
+          "id": 6,
+          "box": [
+            478,
+            182,
+            505,
+            260
+          ],
+          "conf": 0.781,
+          "mask_fill": 0.594
+        },
+        {
+          "id": 3,
+          "box": [
+            370,
+            179,
+            399,
+            260
+          ],
+          "conf": 0.743,
+          "mask_fill": 0.226
+        },
+        {
+          "id": 13,
+          "box": [
+            576,
+            198,
+            607,
+            296
+          ],
+          "conf": 0.831,
+          "mask_fill": 0.627
+        },
+        {
+          "id": 16,
+          "box": [
+            265,
+            170,
+            289,
+            236
+          ],
+          "conf": 0.808,
+          "mask_fill": 0.607
+        }
+      ],
+      "window": 4,
+      "action_full": [
+        [
+          "jogging",
+          0.521967887878418
+        ],
+        [
+          "marching",
+          0.03479981794953346
+        ],
+        [
+          "pushing car",
+          0.030377626419067383
+        ]
+      ],
+      "action_crop": [
+        [
+          "jogging",
+          0.6490991115570068
+        ],
+        [
+          "pushing car",
+          0.08025656640529633
+        ],
+        [
+          "marching",
+          0.03506122902035713
+        ]
+      ]
+    },
+    {
+      "frame": 120,
+      "time_s": 12.0,
+      "image": "moments\\frame_0120.png",
+      "detections": [
+        {
+          "id": 5,
+          "box": [
+            560,
+            129,
+            585,
+            194
+          ],
+          "conf": 0.746,
+          "mask_fill": 0.56
+        },
+        {
+          "id": 6,
+          "box": [
+            585,
+            134,
+            609,
+            198
+          ],
+          "conf": 0.734,
+          "mask_fill": 0.513
+        },
+        {
+          "id": 13,
+          "box": [
+            649,
+            129,
+            675,
+            203
+          ],
+          "conf": 0.788,
+          "mask_fill": 0.581
+        },
+        {
+          "id": 17,
+          "box": [
+            166,
+            70,
+            183,
+            107
+          ],
+          "conf": 0.604,
+          "mask_fill": 0.359
+        },
+        {
+          "id": 3,
+          "box": [
+            373,
+            182,
+            403,
+            261
+          ],
+          "conf": 0.74,
+          "mask_fill": 0.51
+        },
+        {
+          "id": 16,
+          "box": [
+            508,
+            214,
+            539,
+            295
+          ],
+          "conf": 0.75,
+          "mask_fill": 0.454
+        }
+      ],
+      "window": 7,
+      "action_full": [
+        [
+          "playing cricket",
+          0.19137342274188995
+        ],
+        [
+          "shooting goal (soccer)",
+          0.15075504779815674
+        ],
+        [
+          "egg hunting",
+          0.09281967580318451
+        ]
+      ],
+      "action_crop": [
+        [
+          "jogging",
+          0.17064125835895538
+        ],
+        [
+          "egg hunting",
+          0.16355499625205994
+        ],
+        [
+          "shooting goal (soccer)",
+          0.07342763245105743
+        ]
+      ]
+    }
+  ],
+  "time_yolo_unet_s": 553.6,
+  "time_slowfast_s": 32.0
+}

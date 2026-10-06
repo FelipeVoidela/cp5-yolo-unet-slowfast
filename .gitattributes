@@ -1,0 +1,7 @@
+* text=auto
+*.pdf binary
+*.mp4 binary
+*.avi binary
+*.png binary
+*.onnx binary
+*.pt binary

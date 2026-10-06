@@ -1,0 +1,827 @@
+{
+  "video": "archery.mp4",
+  "frames": 300,
+  "fps": 29.97002997002997,
+  "size": [
+    320,
+    240
+  ],
+  "frames_with_person": 300,
+  "mean_people_per_frame": 2.0,
+  "unique_track_ids": 2,
+  "mean_det_conf": 0.806,
+  "mean_mask_fill_ratio": 0.466,
+  "window": 32,
+  "stride": 16,
+  "n_windows": 18,
+  "windows": [
+    {
+      "k": 0,
+      "frames": [
+        0,
+        32
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          3.190333361000162e-23
+        ],
+        [
+          "playing paintball",
+          1.9139782086350718e-25
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          6.255477017118121e-16
+        ],
+        [
+          "playing paintball",
+          1.840015502943835e-18
+        ]
+      ]
+    },
+    {
+      "k": 1,
+      "frames": [
+        16,
+        48
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          2.728208957478774e-18
+        ],
+        [
+          "playing paintball",
+          4.1943727767278466e-20
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          7.410760076954838e-16
+        ],
+        [
+          "playing paintball",
+          2.8614952579164343e-18
+        ]
+      ]
+    },
+    {
+      "k": 2,
+      "frames": [
+        32,
+        64
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          6.2887491743897905e-19
+        ],
+        [
+          "playing paintball",
+          1.3487579745492755e-20
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          1.8765752366205375e-14
+        ],
+        [
+          "playing paintball",
+          8.168859858703357e-17
+        ]
+      ]
+    },
+    {
+      "k": 3,
+      "frames": [
+        48,
+        80
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          6.247713907423771e-20
+        ],
+        [
+          "playing paintball",
+          5.779176816293876e-22
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          1.9329763018420044e-16
+        ],
+        [
+          "playing paintball",
+          4.977505569298028e-19
+        ]
+      ]
+    },
+    {
+      "k": 4,
+      "frames": [
+        64,
+        96
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          2.7632295518728503e-21
+        ],
+        [
+          "playing paintball",
+          9.273139813039647e-25
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          1.1611498641392846e-14
+        ],
+        [
+          "playing paintball",
+          2.602957475921148e-18
+        ]
+      ]
+    },
+    {
+      "k": 5,
+      "frames": [
+        80,
+        112
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          8.821183620253283e-27
+        ],
+        [
+          "playing paintball",
+          1.655699102771617e-29
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          5.704941723451213e-23
+        ],
+        [
+          "playing paintball",
+          1.207305886160159e-25
+        ]
+      ]
+    },
+    {
+      "k": 6,
+      "frames": [
+        96,
+        128
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          6.24846073403343e-25
+        ],
+        [
+          "playing paintball",
+          6.085644342168163e-27
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          2.2351658337162223e-19
+        ],
+        [
+          "playing paintball",
+          9.226506040303409e-22
+        ]
+      ]
+    },
+    {
+      "k": 7,
+      "frames": [
+        112,
+        144
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          3.7282467234476505e-28
+        ],
+        [
+          "playing paintball",
+          5.036164569756172e-32
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          1.3115354023424665e-22
+        ],
+        [
+          "playing paintball",
+          5.830515940211999e-26
+        ]
+      ]
+    },
+    {
+      "k": 8,
+      "frames": [
+        128,
+        160
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          3.4588758126336885e-23
+        ],
+        [
+          "golf driving",
+          1.4769040000852183e-26
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          7.885326663830188e-20
+        ],
+        [
+          "golf driving",
+          2.095467883280892e-22
+        ]
+      ]
+    },
+    {
+      "k": 9,
+      "frames": [
+        144,
+        176
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          2.6773471208777487e-20
+        ],
+        [
+          "golf driving",
+          6.0446553637259604e-24
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          7.37291143541074e-18
+        ],
+        [
+          "golf driving",
+          1.6082828625119119e-21
+        ]
+      ]
+    },
+    {
+      "k": 10,
+      "frames": [
+        160,
+        192
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          1.6257756826912323e-22
+        ],
+        [
+          "golf driving",
+          3.0769701415932316e-26
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          1.7126296369118806e-20
+        ],
+        [
+          "playing paintball",
+          1.9030441034506428e-24
+        ]
+      ]
+    },
+    {
+      "k": 11,
+      "frames": [
+        176,
+        208
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          2.3595272689347416e-19
+        ],
+        [
+          "golf driving",
+          6.707083228193357e-22
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          5.910048764739395e-21
+        ],
+        [
+          "golf driving",
+          1.2742459355197557e-24
+        ]
+      ]
+    },
+    {
+      "k": 12,
+      "frames": [
+        192,
+        224
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          1.1305501119488093e-21
+        ],
+        [
+          "playing paintball",
+          4.9773218257965e-24
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          1.0614484383612852e-24
+        ],
+        [
+          "playing paintball",
+          2.3175550874407473e-27
+        ]
+      ]
+    },
+    {
+      "k": 13,
+      "frames": [
+        208,
+        240
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          1.910206741002635e-18
+        ],
+        [
+          "front raises",
+          2.5625801729712776e-20
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          4.0049536671113884e-21
+        ],
+        [
+          "playing paintball",
+          1.3332407208230054e-23
+        ]
+      ]
+    },
+    {
+      "k": 14,
+      "frames": [
+        224,
+        256
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          2.2417796328180967e-15
+        ],
+        [
+          "golf driving",
+          3.2653398049339096e-17
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          2.1257942863849323e-17
+        ],
+        [
+          "playing paintball",
+          1.7928163962458004e-19
+        ]
+      ]
+    },
+    {
+      "k": 15,
+      "frames": [
+        240,
+        272
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          1.2914774874257361e-15
+        ],
+        [
+          "front raises",
+          3.8705488162140474e-17
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          2.6211505380124274e-19
+        ],
+        [
+          "front raises",
+          3.4234368107573736e-21
+        ]
+      ]
+    },
+    {
+      "k": 16,
+      "frames": [
+        256,
+        288
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          4.367428930985261e-15
+        ],
+        [
+          "golf driving",
+          2.3539579234953777e-15
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "golf driving",
+          4.490224110500346e-13
+        ],
+        [
+          "throwing axe",
+          4.3632285284811445e-13
+        ]
+      ]
+    },
+    {
+      "k": 17,
+      "frames": [
+        268,
+        300
+      ],
+      "full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          1.1844213108596203e-15
+        ],
+        [
+          "golf driving",
+          9.315160134134443e-16
+        ]
+      ],
+      "crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          3.533905459929265e-11
+        ],
+        [
+          "golf driving",
+          1.3331370729563474e-11
+        ]
+      ]
+    }
+  ],
+  "moments": [
+    {
+      "frame": 60,
+      "time_s": 2.0,
+      "image": "moments\\frame_0060.png",
+      "detections": [
+        {
+          "id": 1,
+          "box": [
+            30,
+            42,
+            95,
+            238
+          ],
+          "conf": 0.821,
+          "mask_fill": 0.52
+        },
+        {
+          "id": 2,
+          "box": [
+            124,
+            37,
+            200,
+            237
+          ],
+          "conf": 0.835,
+          "mask_fill": 0.587
+        }
+      ],
+      "window": 3,
+      "action_full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          6.247713907423771e-20
+        ],
+        [
+          "playing paintball",
+          5.779176816293876e-22
+        ]
+      ],
+      "action_crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          1.9329763018420044e-16
+        ],
+        [
+          "playing paintball",
+          4.977505569298028e-19
+        ]
+      ]
+    },
+    {
+      "frame": 150,
+      "time_s": 5.0,
+      "image": "moments\\frame_0150.png",
+      "detections": [
+        {
+          "id": 1,
+          "box": [
+            21,
+            43,
+            96,
+            239
+          ],
+          "conf": 0.796,
+          "mask_fill": 0.477
+        },
+        {
+          "id": 2,
+          "box": [
+            124,
+            34,
+            204,
+            238
+          ],
+          "conf": 0.836,
+          "mask_fill": 0.505
+        }
+      ],
+      "window": 8,
+      "action_full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          3.4588758126336885e-23
+        ],
+        [
+          "golf driving",
+          1.4769040000852183e-26
+        ]
+      ],
+      "action_crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          7.885326663830188e-20
+        ],
+        [
+          "golf driving",
+          2.095467883280892e-22
+        ]
+      ]
+    },
+    {
+      "frame": 240,
+      "time_s": 8.01,
+      "image": "moments\\frame_0240.png",
+      "detections": [
+        {
+          "id": 1,
+          "box": [
+            25,
+            43,
+            98,
+            239
+          ],
+          "conf": 0.827,
+          "mask_fill": 0.39
+        },
+        {
+          "id": 2,
+          "box": [
+            124,
+            34,
+            195,
+            239
+          ],
+          "conf": 0.853,
+          "mask_fill": 0.487
+        }
+      ],
+      "window": 14,
+      "action_full": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          2.2417796328180967e-15
+        ],
+        [
+          "golf driving",
+          3.2653398049339096e-17
+        ]
+      ],
+      "action_crop": [
+        [
+          "archery",
+          1.0
+        ],
+        [
+          "throwing axe",
+          2.1257942863849323e-17
+        ],
+        [
+          "playing paintball",
+          1.7928163962458004e-19
+        ]
+      ]
+    }
+  ],
+  "time_yolo_unet_s": 479.6,
+  "time_slowfast_s": 70.2
+}

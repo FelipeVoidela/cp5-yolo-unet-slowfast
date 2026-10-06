@@ -1,0 +1,19 @@
+window,start_frame,end_frame,t_start,t_end,mode,top1,conf1,top2,conf2,top3,conf3
+0,0,31,0.00,3.10,full,playing cricket,0.4966,throwing ball,0.0887,playing badminton,0.0632
+0,0,31,0.00,3.10,crop,catching or throwing frisbee,0.4861,playing cricket,0.1328,playing badminton,0.1066
+1,16,47,1.60,4.70,full,playing cricket,0.1306,shooting goal (soccer),0.1002,throwing ball,0.0853
+1,16,47,1.60,4.70,crop,playing cricket,0.3157,jogging,0.0861,shooting goal (soccer),0.0791
+2,32,63,3.20,6.30,full,throwing ball,0.1301,jogging,0.1294,hurling (sport),0.0525
+2,32,63,3.20,6.30,crop,throwing ball,0.1420,jogging,0.0873,pushing car,0.0774
+3,48,79,4.80,7.90,full,jogging,0.4085,egg hunting,0.1112,throwing ball,0.0722
+3,48,79,4.80,7.90,crop,jogging,0.4730,pushing car,0.1256,catching or throwing frisbee,0.0526
+4,64,95,6.40,9.50,full,jogging,0.5220,marching,0.0348,pushing car,0.0304
+4,64,95,6.40,9.50,crop,jogging,0.6491,pushing car,0.0803,marching,0.0351
+5,80,111,8.00,11.10,full,jogging,0.4432,egg hunting,0.0699,hurling (sport),0.0686
+5,80,111,8.00,11.10,crop,jogging,0.5833,playing cricket,0.0570,throwing ball,0.0546
+6,96,127,9.60,12.70,full,jogging,0.1458,hurling (sport),0.1270,egg hunting,0.0951
+6,96,127,9.60,12.70,crop,jogging,0.4072,hurling (sport),0.0810,playing cricket,0.0634
+7,112,143,11.20,14.30,full,playing cricket,0.1914,shooting goal (soccer),0.1508,egg hunting,0.0928
+7,112,143,11.20,14.30,crop,jogging,0.1706,egg hunting,0.1636,shooting goal (soccer),0.0734
+8,118,149,11.80,14.90,full,shooting goal (soccer),0.1455,egg hunting,0.1279,playing cricket,0.1257
+8,118,149,11.80,14.90,crop,egg hunting,0.3593,throwing ball,0.1314,jogging,0.1073

@@ -1,0 +1,814 @@
+{
+  "video": "arm_wrestling.mp4",
+  "frames": 280,
+  "fps": 28.0,
+  "size": [
+    340,
+    256
+  ],
+  "frames_with_person": 245,
+  "mean_people_per_frame": 3.12,
+  "unique_track_ids": 31,
+  "mean_det_conf": 0.632,
+  "mean_mask_fill_ratio": 0.457,
+  "window": 32,
+  "stride": 16,
+  "n_windows": 17,
+  "windows": [
+    {
+      "k": 0,
+      "frames": [
+        0,
+        32
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          2.1632726805633634e-14
+        ],
+        [
+          "rock scissors paper",
+          2.1601637308337612e-14
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          2.1632726805633634e-14
+        ],
+        [
+          "rock scissors paper",
+          2.1601637308337612e-14
+        ]
+      ]
+    },
+    {
+      "k": 1,
+      "frames": [
+        16,
+        48
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          8.198622987107274e-14
+        ],
+        [
+          "rock scissors paper",
+          5.843867327982172e-14
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          8.198622987107274e-14
+        ],
+        [
+          "rock scissors paper",
+          5.843867327982172e-14
+        ]
+      ]
+    },
+    {
+      "k": 2,
+      "frames": [
+        32,
+        64
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          9.730819053686829e-17
+        ],
+        [
+          "rock scissors paper",
+          2.977109382234297e-17
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          9.730819053686829e-17
+        ],
+        [
+          "rock scissors paper",
+          2.977109382234297e-17
+        ]
+      ]
+    },
+    {
+      "k": 3,
+      "frames": [
+        48,
+        80
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          8.687657798017723e-15
+        ],
+        [
+          "rock scissors paper",
+          3.555111099678586e-16
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          8.687657798017723e-15
+        ],
+        [
+          "rock scissors paper",
+          3.555111099678586e-16
+        ]
+      ]
+    },
+    {
+      "k": 4,
+      "frames": [
+        64,
+        96
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          8.908619894836163e-15
+        ],
+        [
+          "rock scissors paper",
+          2.6258495703333773e-15
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          8.50085908106089e-15
+        ],
+        [
+          "rock scissors paper",
+          1.481104235635214e-15
+        ]
+      ]
+    },
+    {
+      "k": 5,
+      "frames": [
+        80,
+        112
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          7.315825259501287e-15
+        ],
+        [
+          "rock scissors paper",
+          1.5519352482669868e-15
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          7.315825259501287e-15
+        ],
+        [
+          "rock scissors paper",
+          1.5519352482669868e-15
+        ]
+      ]
+    },
+    {
+      "k": 6,
+      "frames": [
+        96,
+        128
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          3.427133929293294e-14
+        ],
+        [
+          "rock scissors paper",
+          5.0082178259126114e-15
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          3.427133929293294e-14
+        ],
+        [
+          "rock scissors paper",
+          5.0082178259126114e-15
+        ]
+      ]
+    },
+    {
+      "k": 7,
+      "frames": [
+        112,
+        144
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          2.9886162057087386e-15
+        ],
+        [
+          "rock scissors paper",
+          3.804370661440661e-16
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          2.9886162057087386e-15
+        ],
+        [
+          "rock scissors paper",
+          3.804370661440661e-16
+        ]
+      ]
+    },
+    {
+      "k": 8,
+      "frames": [
+        128,
+        160
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          1.2909405744162953e-15
+        ],
+        [
+          "rock scissors paper",
+          2.3239688278769576e-16
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          1.2909405744162953e-15
+        ],
+        [
+          "rock scissors paper",
+          2.3239688278769576e-16
+        ]
+      ]
+    },
+    {
+      "k": 9,
+      "frames": [
+        144,
+        176
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          4.0649964947944706e-14
+        ],
+        [
+          "rock scissors paper",
+          1.1662370593171992e-14
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          4.0649964947944706e-14
+        ],
+        [
+          "rock scissors paper",
+          1.1662370593171992e-14
+        ]
+      ]
+    },
+    {
+      "k": 10,
+      "frames": [
+        160,
+        192
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "rock scissors paper",
+          4.0655548589133006e-14
+        ],
+        [
+          "shaking hands",
+          3.9236416036775995e-14
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "rock scissors paper",
+          4.0655548589133006e-14
+        ],
+        [
+          "shaking hands",
+          3.9236416036775995e-14
+        ]
+      ]
+    },
+    {
+      "k": 11,
+      "frames": [
+        176,
+        208
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          6.202346875501595e-16
+        ],
+        [
+          "rock scissors paper",
+          1.0110926412256176e-16
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          6.202346875501595e-16
+        ],
+        [
+          "rock scissors paper",
+          1.0110926412256176e-16
+        ]
+      ]
+    },
+    {
+      "k": 12,
+      "frames": [
+        192,
+        224
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          1.4214864569174306e-16
+        ],
+        [
+          "rock scissors paper",
+          4.6358523484811684e-17
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          1.4214864569174306e-16
+        ],
+        [
+          "rock scissors paper",
+          4.6358523484811684e-17
+        ]
+      ]
+    },
+    {
+      "k": 13,
+      "frames": [
+        208,
+        240
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "capoeira",
+          1.1378565645259187e-08
+        ],
+        [
+          "rock scissors paper",
+          4.250886309620228e-09
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "capoeira",
+          1.1378565645259187e-08
+        ],
+        [
+          "rock scissors paper",
+          4.250886309620228e-09
+        ]
+      ]
+    },
+    {
+      "k": 14,
+      "frames": [
+        224,
+        256
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          0.9996970891952515
+        ],
+        [
+          "drinking",
+          9.371171472594142e-05
+        ],
+        [
+          "capoeira",
+          2.5551575163262896e-05
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          0.9996970891952515
+        ],
+        [
+          "drinking",
+          9.371171472594142e-05
+        ],
+        [
+          "capoeira",
+          2.5551575163262896e-05
+        ]
+      ]
+    },
+    {
+      "k": 15,
+      "frames": [
+        240,
+        272
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          0.9999914169311523
+        ],
+        [
+          "capoeira",
+          5.052660071669379e-06
+        ],
+        [
+          "shaking hands",
+          1.0711389677453553e-06
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          0.9999914169311523
+        ],
+        [
+          "capoeira",
+          5.052660071669379e-06
+        ],
+        [
+          "shaking hands",
+          1.0711389677453553e-06
+        ]
+      ]
+    },
+    {
+      "k": 16,
+      "frames": [
+        248,
+        280
+      ],
+      "full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "capoeira",
+          4.8151034270915716e-09
+        ],
+        [
+          "shaking hands",
+          2.1428476770779525e-09
+        ]
+      ],
+      "crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "capoeira",
+          4.8151034270915716e-09
+        ],
+        [
+          "shaking hands",
+          2.1428476770779525e-09
+        ]
+      ]
+    }
+  ],
+  "moments": [
+    {
+      "frame": 56,
+      "time_s": 2.0,
+      "image": "moments\\frame_0056.png",
+      "detections": [
+        {
+          "id": 1,
+          "box": [
+            11,
+            2,
+            201,
+            253
+          ],
+          "conf": 0.885,
+          "mask_fill": 0.221
+        },
+        {
+          "id": 2,
+          "box": [
+            203,
+            2,
+            260,
+            110
+          ],
+          "conf": 0.373,
+          "mask_fill": 0.056
+        },
+        {
+          "id": 7,
+          "box": [
+            95,
+            2,
+            141,
+            109
+          ],
+          "conf": 0.637,
+          "mask_fill": 0.026
+        },
+        {
+          "id": 5,
+          "box": [
+            186,
+            1,
+            340,
+            247
+          ],
+          "conf": 0.795,
+          "mask_fill": 0.709
+        }
+      ],
+      "window": 3,
+      "action_full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          8.687657798017723e-15
+        ],
+        [
+          "rock scissors paper",
+          3.555111099678586e-16
+        ]
+      ],
+      "action_crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          8.687657798017723e-15
+        ],
+        [
+          "rock scissors paper",
+          3.555111099678586e-16
+        ]
+      ]
+    },
+    {
+      "frame": 140,
+      "time_s": 5.0,
+      "image": "moments\\frame_0140.png",
+      "detections": [
+        {
+          "id": 1,
+          "box": [
+            0,
+            3,
+            212,
+            251
+          ],
+          "conf": 0.59,
+          "mask_fill": 0.739
+        },
+        {
+          "id": 21,
+          "box": [
+            212,
+            0,
+            264,
+            89
+          ],
+          "conf": 0.631,
+          "mask_fill": 0.748
+        },
+        {
+          "id": 26,
+          "box": [
+            254,
+            1,
+            313,
+            97
+          ],
+          "conf": 0.639,
+          "mask_fill": 0.873
+        }
+      ],
+      "window": 8,
+      "action_full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          1.2909405744162953e-15
+        ],
+        [
+          "rock scissors paper",
+          2.3239688278769576e-16
+        ]
+      ],
+      "action_crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "shaking hands",
+          1.2909405744162953e-15
+        ],
+        [
+          "rock scissors paper",
+          2.3239688278769576e-16
+        ]
+      ]
+    },
+    {
+      "frame": 224,
+      "time_s": 8.0,
+      "image": "moments\\frame_0224.png",
+      "detections": [
+        {
+          "id": 20,
+          "box": [
+            102,
+            3,
+            339,
+            252
+          ],
+          "conf": 0.693,
+          "mask_fill": 0.621
+        }
+      ],
+      "window": 13,
+      "action_full": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "capoeira",
+          1.1378565645259187e-08
+        ],
+        [
+          "rock scissors paper",
+          4.250886309620228e-09
+        ]
+      ],
+      "action_crop": [
+        [
+          "arm wrestling",
+          1.0
+        ],
+        [
+          "capoeira",
+          1.1378565645259187e-08
+        ],
+        [
+          "rock scissors paper",
+          4.250886309620228e-09
+        ]
+      ]
+    }
+  ],
+  "time_yolo_unet_s": 656.0,
+  "time_slowfast_s": 63.9
+}
