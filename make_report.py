@@ -129,15 +129,21 @@ def window_accuracy(v):
 
 def build(path="relatorio_cp5.pdf"):
     W = A4[0] - 3 * cm
+    I1, I2 = (json.loads((OUT / v / "individual" / "individual_summary.json").read_text(encoding="utf-8"))
+              for v in ("archery", "arm_wrestling"))
     st = []
     st += [P("Applied Computer Vision 2026 - CheckPoint 5<br/>Detecção de Ações de Pessoas com YOLO + U-Net + SlowFast", title),
+           P("Prof. Dr. Paulo Sergio Rodrigues - Outubro de 2026", ParagraphStyle("p", parent=small, alignment=1)),
+           Spacer(1, 3),
            P("<br/>".join(INTEGRANTES), ParagraphStyle("i", parent=small, alignment=1)),
            Spacer(1, 4)]
 
     st += [P("1. Pipeline", h1), P(
         "Todos os modelos são pré-treinados, sem treino adicional. <b>YOLO11n</b> (COCO, classe <i>person</i>) "
         "detecta cada pessoa e o rastreador <b>ByteTrack</b> mantém um ID por pessoa. Para cada caixa, a "
-        "<b>U-Net</b> (U²-Net <i>human_seg</i>, uma U-Net aninhada treinada para segmentar pessoas) recebe um "
+        "<b>U-Net</b> (U²-Net <i>human_seg</i>, uma U-Net aninhada treinada para segmentar pessoas, escolhida por "
+        "manter a arquitetura codificador-decodificador com <i>skip connections</i> da U-Net e ter pesos públicos "
+        "para pessoas) recebe um "
         "<b>recorte quadrado</b> centrado na caixa (margem de 25%), redimensionado para 320×320. O mapa de "
         "probabilidade é limiarizado em 0,5 e <b>projetado de volta</b> nas coordenadas do quadro original, "
         "limitado à caixa. O <b>SlowFast R50 8×8</b> (Kinetics-400, 400 ações) classifica janelas de 32 quadros "
@@ -154,7 +160,13 @@ def build(path="relatorio_cp5.pdf"):
         "extras. O primeiro é um clipe de <b>transição</b>, com os últimos 4 s de V1 seguidos dos primeiros 4 s "
         "de V2 (corte no quadro 119, t = 3,97 s), para medir o que acontece quando a ação termina e outra começa. "
         "O segundo é um caso de falha, <b>pedestres</b> (OpenCV <i>vtest</i>, 10 fps, pessoas pequenas, ação "
-        "<i>andar</i>, que não existe no Kinetics-400). Os momentos analisados são 20%, 50% e 80% de cada vídeo.")]
+        "<i>andar</i>, que não existe no Kinetics-400). Os momentos analisados são 20%, 50% e 80% de cada vídeo. "
+        f"<b>Modelos isolados</b> (passo 1, <i>outputs/*/individual</i>): o YOLO sozinho encontra {br(I1['yolo_mean_people'])} "
+        f"e {br(I2['yolo_mean_people'])} pessoas/quadro em V1 e V2. A U-Net aplicada ao quadro inteiro, sem caixa, marca "
+        f"{I1['unet_mean_mask_area_fraction']:.0%} e {I2['unet_mean_mask_area_fraction']:.0%} dos pixels como pessoa, mas "
+        "gera uma única máscara para todas as pessoas, por isso o recorte guiado pelo YOLO é necessário para ter uma "
+        f"máscara por pessoa. O SlowFast sozinho prevê <i>{I1['slowfast_windows'][0]['top3'][0][0]}</i> e "
+        f"<i>{I2['slowfast_windows'][0]['top3'][0][0]}</i>, as mesmas classes do pipeline integrado.")]
 
     rows = [["Vídeo", "Quadros com pessoa", "Pessoas/quadro", "IDs únicos", "Conf. YOLO", "Preench. máscara*",
              "Janelas", "Acerto SlowFast (inteiro / recorte)", "Conf. média top-1 (inteiro / recorte)"]]
@@ -164,9 +176,9 @@ def build(path="relatorio_cp5.pdf"):
         af, ac = window_accuracy(v)
         cf = sum(w["full"][0][1] for w in ws) / len(ws)
         cc = sum(w["crop"][0][1] for w in ws if w["crop"]) / len(ws)
-        rows.append([LABEL[v], f"{s['frames_with_person']}/{s['frames']}", s["mean_people_per_frame"],
-                     s["unique_track_ids"], f"{s['mean_det_conf']:.2f}", f"{s['mean_mask_fill_ratio']:.2f}",
-                     s["n_windows"], f"{af} / {ac}", f"{cf:.2f} / {cc:.2f}"])
+        rows.append([LABEL[v], f"{s['frames_with_person']}/{s['frames']}", br(s["mean_people_per_frame"]),
+                     s["unique_track_ids"], br(s["mean_det_conf"]), br(s["mean_mask_fill_ratio"]),
+                     s["n_windows"], f"{af} / {ac}", f"{br(cf)} / {br(cc)}"])
     st += [table(rows, [W * x for x in (.13, .10, .09, .07, .08, .10, .08, .18, .17)]),
            P("Tabela 1 - Resumo por vídeo. *Preench. máscara = pixels da máscara ÷ área da caixa (uma pessoa "
              "em pé ocupa tipicamente 40-60% da caixa).", cap)]
@@ -183,9 +195,9 @@ def build(path="relatorio_cp5.pdf"):
             else:
                 truth = GT[v]
             ok = "Sim" if af[0] == truth else "Não"
-            rows.append([LABEL[v], f"{m['time_s']:.1f}", box_ok, mask_ok,
-                         f"{sum(fills) / max(1, len(fills)):.2f}", f"{af[0]} ({af[1]:.2f})",
-                         f"{ac[0]} ({ac[1]:.2f})", ok, obs])
+            rows.append([LABEL[v], f"{m['time_s']:.1f}".replace(".", ","), box_ok, mask_ok,
+                         br(sum(fills) / max(1, len(fills))), f"{af[0]} ({br(af[1])})",
+                         f"{ac[0]} ({br(ac[1])})", ok, obs])
     st += [Spacer(1, 3), table(rows, [W * x for x in (.12, .06, .08, .08, .07, .17, .17, .06, .19)]),
            P("Tabela 2 - Três momentos por vídeo (20%, 50% e 80% da duração). Quadros em outputs/&lt;vídeo&gt;/moments.", cap)]
 
@@ -197,7 +209,7 @@ def build(path="relatorio_cp5.pdf"):
                                                                      ("RIGHTPADDING", (0, 0), (-1, -1), 1)]),
                          P("Figura 1 - (a) V1 t=5 s: caixas e máscaras corretas; (b) V2 t=2 s: máscara do garoto só no braço e a do oponente "
                            "de preto vaza para mesa e fundo; (c) transição t=6,1 s: ID 2 herdado da arqueira e "
-                           "ID 7 sem máscara; (d) pedestres t=3 s: duas pessoas numa única caixa, 'playing cricket' 13%.", cap)]),
+                           "IDs 7 e 16 sem máscara; (d) pedestres t=3 s: duas pessoas numa única caixa, 'playing cricket' 13%.", cap)]),
            KeepTogether([Image(str(OUT / "transition/actions_plot.png"), width=W * 0.78, height=W * 0.78 * 2.8 / 8),
                          P("Figura 2 - Confiança top-1 por janela no clipe de transição (corte em t = 3,97 s).", cap)])]
 
